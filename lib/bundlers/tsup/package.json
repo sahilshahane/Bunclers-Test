@@ -1,0 +1,15 @@
+{
+  "name": "tsup-saylib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup --config tsup.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^6.6.3"
+  }
+}

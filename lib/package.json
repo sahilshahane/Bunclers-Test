@@ -1,9 +1,10 @@
 {
-  "name": "@saylib",
+  "name": "my-local-lib",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
   "type": "module",
   "scripts": {

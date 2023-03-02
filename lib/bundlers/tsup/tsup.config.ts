@@ -1,8 +1,8 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig((options) => ({
-  name: 'tsup',
-  target: 'es2015',
+  name: 'TSUP - PRODUCTION',
+  target: 'es6',
   entry: ['../../index.tsx', '../../src/**/*.tsx'],
   format: ['esm'],
   clean: true,

@@ -14,11 +14,17 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "outDir": "dist",
+    "declarationDir": "dist"
   },
   "include": [
     "src/**/*", // *** The files TypeScript should type check ***,
     "index.tsx"
   ],
-  "exclude": ["node_modules", "build"] // *** The files to not type check ***
+  "exclude": ["node_modules", "dist"] // *** The files to not type check ***
 }
